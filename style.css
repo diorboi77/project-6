@@ -1,0 +1,83 @@
+.titl{
+    color: aqua;
+}
+.title{
+    color: red;
+}
+.salom{
+    color: black;
+}
+.dz{
+    background-color: white;
+    width: 200px;
+}
+*{
+    margin: o;
+    padding: 0;
+}
+
+.menu-wrap{
+    display: flex;
+}
+/* body{
+    background-color: black;
+} */
+.Menu{
+    color: white;
+    
+}
+ul{
+    list-style: none;
+}
+.submenu a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid red;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    display: block;
+    transition: 0.4s;
+}
+.submenu-wrap{
+    transition: 0.5s;
+    opacity: 0;
+    transform: scaleY(0);
+}
+.submenu:hover .submenu-wrap{
+    display: block;
+    opacity: 1;
+    transform: scaleY(1);
+}
+.submenu a:hover{
+    background-color: aqua;
+    color: red;
+}
+.xaa{
+    color: wheat;
+}
+.table{
+    color: white;
+}
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 5px 10px;
+    border: 1px solid;
+}
+thead tr{
+    background-color: blue;
+}
+tbody tr:nth-child(odd){
+    background-color: cadetblue;
+    transition: 0.5s;
+}
+tbody tr:nth-child(even){
+    background-color: orange;
+    transition: 0.5s;
+}
+tbody tr:hover{
+    background-color: chartreuse;
+    color: black;
+}
